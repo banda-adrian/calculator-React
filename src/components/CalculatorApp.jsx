@@ -52,7 +52,7 @@ const CalculatorApp = () => {
 
           <button onClick={Clear} className='text-white  bg-gray-900 w-20 h-20 rounded-lg font-bold text-3xl flex justify-center items-center'>AC</button>
           <button onClick={Slice} className='text-white  bg-gray-900 w-20 h-20 rounded-lg font-bold text-3xl flex justify-center items-center'>C</button>
-          <button value='÷' onClick={Click} className='text-gray-900  bg-white w-20 h-20 rounded-lg font-bold text-3xl flex justify-center items-center'>÷</button>
+          <button value='/' onClick={Click} className='text-gray-900  bg-white w-20 h-20 rounded-lg font-bold text-3xl flex justify-center items-center'>÷</button>
           <button value='+' onClick={Click} className='text-gray-900  bg-white w-20 h-40 rounded-lg font-bold text-3xl flex justify-center items-center row-span-2'>+</button>
 
           <button value='7' onClick={Click} className='text-white w-20 h-20 bg-gray-900 rounded-lg font-bold text-3xl flex justify-center items-center'>7</button>
@@ -68,7 +68,7 @@ const CalculatorApp = () => {
           <button value='1' onClick={Click} className='text-white w-20 h-20 bg-gray-900 rounded-lg font-bold text-3xl flex justify-center items-center'>1</button>
           <button value='2' onClick={Click} className='text-white w-20 h-20 bg-gray-900 rounded-lg font-bold text-3xl flex justify-center items-center'>2</button>
           <button value='3' onClick={Click} className='text-white w-20 h-20 bg-gray-900 rounded-lg font-bold text-3xl flex justify-center items-center'>3</button>
-          <button value='x' onClick={Click} className='text-gray-900 bg-white w-20 h-20 rounded-lg font-bold text-3xl flex justify-center items-center'>x</button>
+          <button value='*' onClick={Click} className='text-gray-900 bg-white w-20 h-20 rounded-lg font-bold text-3xl flex justify-center items-center'>x</button>
 
           <button value='.' onClick={Click} className='text-white w-20 h-20 bg-gray-900 rounded-lg font-bold text-3xl flex justify-center items-center'>.</button>
           <button value='0' onClick={Click} className='text-white w-20 h-20 bg-gray-900 rounded-lg font-bold text-3xl flex justify-center items-center'>0</button>
